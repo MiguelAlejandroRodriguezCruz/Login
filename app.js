@@ -15,8 +15,8 @@ app.use(bodyParser.json());
 app.post('/dashboard',(req,res)=>{
     
     res.render('dashboard',{
-        nombre :"Desiree Castañeda",
-        email: "kami3haru@gmail.com"
+        nombre :"Miguel Alejandro Rodríguez Cruz",
+        email: "miguel.ale.rodri.cruz@gmail.com"
     })
 })
 app.get('/login',(req,res)=>{
